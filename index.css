@@ -21,6 +21,7 @@ body {
   background: linear-gradient(#FEFCAF, #FFFEDA);
   padding: 5px 20px 10px 20px;
   width: 250px;
+  margin: 30px auto;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
 	border-radius: 2% / 50%;
   position: relative;

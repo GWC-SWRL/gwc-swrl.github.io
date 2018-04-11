@@ -16,3 +16,13 @@ body {
   margin-right: 400px;
   padding: 0px 10px;
 }
+
+.icon-button-image.jsx-swirl1 {
+    background-size: contain;
+    background-image: url(/download.svg);
+    opacity: 1;
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

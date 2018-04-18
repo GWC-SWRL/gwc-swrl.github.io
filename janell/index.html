@@ -1,14 +1,37 @@
 <html>
-
-<title>Shakespeare</title>
-<head><p><font size="20" font face="Comic Sans MS" color="red">Shakespeare Quotes</font></p></head>
-<header> </header>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Volunteering in South Florida</title>
+  <link href="index.css" rel="stylesheet" type="text/css">
+  </head>
 <body>
-<p><font size="4" font face="Comic Sans MS" color="green">"To be, or not to be: that is the question." </p>
-<p><font size="4" font face="Comic Sans MS" color="purple">"Tomorrow and tomorrow and tomorrow creeps in this petty pace from day to day."</p>
-<p><font size="4" font face="Comic Sans MS" color="green">"O Romeo, Romeo! wherefore art thou Romeo?" </p>
-<p><font size="4" font face="Comic Sans MS" color="purple">"Is this a dagger which I see before me, The handle toward my hand?" </p>
+  <h1 class="red-text">Volunteering in South Florida</h1>
+  <h2 class="blue-text">Ways to Volunteer</h2>
+  <ul>
+    <li class="green-text">Volunteer at your school</li>
+    <li class="green-text">Visit a senior center</li>
+    <li class="green-text">Fix and serve food</li>
+    <li class="green-text">Volunteer at a hospital</li>
+    </ul>
+    <img src="Volunteer.jpg" alt="Volunteering" width="550" height="345">
+    <div class="tab">
+  <button class="tablinks" onclick="openPlace(event, 'School')">School</button>
+  <button class="tablinks" onclick="openPlace(event, 'Home')">Home</button>
+  <button class="tablinks active" onclick="openPlace(event, 'Other')">Other</button>
+</div>
+<div id="School" class="tabcontent" style="display: none;">
+  <h3>How to Volunteer at School</h3>
+  <p>insert bullet points here</p>
+</div>
+<div id="Home" class="tabcontent" style="display: none;">
+  <h3>How to Volunteer at Home</h3>
+  <p>insert bullet points here</p> 
+</div>
+<div id="Other" class="tabcontent" style="display: block;">
+  <h3>Where's another place to volunteer?</h3>
+  <p>insert bullet points here</p>
+</div>
+<script src="index.js"></script>
 </body>
-<img src="Shakespeare.jpg" alt="William Shakespeare" width="460" height="345">  
-
 </html>

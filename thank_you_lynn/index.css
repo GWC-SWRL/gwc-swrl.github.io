@@ -45,3 +45,8 @@ a:link {
   text-decoration: none;
   color:blueviolet
 }
+
+div.name_list {
+  max-width: 500px;
+  margin: auto;
+}

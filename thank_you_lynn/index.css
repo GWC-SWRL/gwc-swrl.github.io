@@ -28,3 +28,20 @@
 .path-sixth {
   stroke-dasharray: 600;
 }
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: 'Pacifico', cursive;
+}
+
+a:link {
+  text-decoration: none;
+  color:blueviolet
+}

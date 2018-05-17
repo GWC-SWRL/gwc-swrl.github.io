@@ -1,0 +1,14 @@
+body {
+}
+
+h1 {
+  font-family: 'Satisfy', cursive;
+  color: blue;
+  font-size: 400%;
+  font-weight: 300
+}
+p {
+  font-family: 'Caveat', cursive;
+  color: darkblue;
+  font-size: 175%; 
+}
